@@ -15,10 +15,16 @@ A super simple FastAPI application that allows students to view and sign up for 
    pip install fastapi uvicorn
    ```
 
-2. Run the application:
+2. Run the application from the `src` directory:
 
    ```
    python app.py
+   ```
+
+   Or run it from the repository root:
+
+   ```
+   uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
    ```
 
 3. Open your browser and go to:
