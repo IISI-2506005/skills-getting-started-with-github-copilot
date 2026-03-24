@@ -44,7 +44,7 @@ activities = {
         "description": "Competitive basketball training and games",
         "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
         "max_participants": 15,
-        "participants": []
+        "participants": [] 
     },
     "Art Studio": {
         "description": "Express creativity through painting and drawing",
